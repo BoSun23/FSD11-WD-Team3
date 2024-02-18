@@ -1,0 +1,98 @@
+@import './variables';
+
+body {
+    background-color: $primary-background-color;
+    font-family: $primary-font;
+}
+
+#nav-bar {
+    background-color: $primary-background-color;
+    margin-top: 20px;
+    height:205px;
+}
+
+.nav  {
+    display: flex;
+    justify-content: center;
+    color: $text-color;
+    font-size: larger;
+     
+}
+
+.nav-item {
+    margin: 2%;
+    border-radius: 15px;
+    height: 100%;
+    
+    a {
+        color: $text-color2;
+        font-size: small;
+        font-family: 'Faunces';
+    }
+}
+
+.nav-pills .nav-link {
+    color: #fff2d9;
+    font-family: 'Fraunces', sans-serif;
+}
+
+.nav li {
+    background-color: $secondary-background-color;
+    margin: 2%;
+    border-radius: 15px;
+    height: 70%;
+}
+
+.nav li a {
+    color:$text-color2;
+    font-size: small;
+}
+
+.dropdown-menu {
+    background-color: $primary-background-color; 
+    padding: 10px; 
+}
+
+
+.dropdown-item {
+    color: #ff00c8; 
+}
+
+
+.dropdown-item:hover {
+    background-color: $accent-color2; 
+    color: #fff; 
+}
+
+#logo{
+    width: auto;
+    height: 175px;
+    margin-top: 10px;
+    margin-left:100px;
+    float:left;
+    opacity: 2;
+}
+
+.col {
+    margin:30px;
+}
+
+.footer .onecolumn {
+    background: #fff2d9;
+    height: 100px;
+    margin-top: 400px;
+   
+}
+
+.footer{
+    margin-bottom: 20px;
+}
+
+.instagram ,.facebook ,.twitter, .linkedin { 
+    background-color:#fff2d9;
+    display: inline;
+    color: $icon-color;
+    margin-right: 20px;
+}
+
+
